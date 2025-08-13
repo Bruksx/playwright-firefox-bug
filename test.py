@@ -12,3 +12,5 @@ def main():
         page.goto("https://www.flexjobs.com/", timeout=10000, wait_until="domcontentloaded")
         page.query_selector(f'a[href="https://www.flexjobs.com/"]')
         browser.close()
+
+main()
