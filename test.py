@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
 
+#this is the path playwright installs the firefox browser. playwright is unable to figure out executable path when not provided on ubuntu
 FIREFOX_EXECUTABLE_PATH="/home/ubuntu/.cache/ms-playwright/firefox-1489/firefox/firefox"
 
 def main():
